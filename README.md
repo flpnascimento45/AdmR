@@ -27,6 +27,7 @@ Possui controle de ponto, despesas de funcionários e contas a pagar.
 -   [ ] Javascript
 -   [ ] Bootstrap
 -   [ ] Jquery
+-   [ ] CSS
 -   [ ] Ajax
 -   [ ] Mysql
 
@@ -41,7 +42,7 @@ Banco está na pasta "tmp" no formato DUMP, basta restaurá-lo.
 Lembre-se de renomear o arquivo conexaoDefine_Modelo.php para conexaDefine.php, e definir os acessos ao banco de dados instalado. Formato do arquivo:
  
  ```cl
- 
+
 <?php
 
 define('HOST', '##HOST##');
