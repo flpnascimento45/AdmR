@@ -1,0 +1,87 @@
+body,html{
+   height: 100%;
+}
+
+.main .row{
+   padding: 0px;
+   margin: 0px;
+   width: 100%;
+}
+
+.main{
+   padding: 70px 10px 0px 270px;
+   background-color: white;
+}
+
+.main .montaTabela, .main .paginacaoTela, .main .filtrosTela, .main .visaoRegistro{
+   overflow-x: auto;
+}
+
+#tituloAplicacao {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.registroTab:hover {
+   background: #30eb73;
+   color: white;
+   cursor: pointer;
+}
+
+div.paginacaoTela {
+   padding-bottom: 20px; 
+}
+
+div.paginacaoTela nav {
+   width: 100%;
+}
+
+.page-link:hover {
+   background: #30eb73;
+   color: white;
+   cursor: pointer;
+}
+
+.page-link.pageSel {
+   background: #30eb73;
+   color: white;
+}
+
+a.page-link:not([href]):hover{
+   color: white;
+}
+
+select.selectFiltro {
+   width: 150px;
+}
+
+td.ordenacao {
+   cursor: pointer;
+}
+
+.form-control:focus{
+   border-color: #30eb73;
+}
+
+.custom-control-input, .custom-control-label {
+   cursor: pointer;
+}
+
+.tdPresenteAusente a {
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) { 
+ 
+   .main{
+       padding: 70px 10px;
+   }
+}
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+
+   .main{
+       padding: 70px 10px;
+   }
+
+}
